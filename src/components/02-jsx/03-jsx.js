@@ -10,7 +10,7 @@ const Jsx3 = () => {
         isAdmin: true
     }
 
-    const { age, email, firstName, isAdmin, lastName, occupation } = user;
+    const { age, isAdmin } = user;
 
     return (
         <div>
