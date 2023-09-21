@@ -16,6 +16,13 @@ import DijitalSaatUygulamasi2 from "./components/06-dijital-saat-uygulamasi2/06-
 import Image from "./components/07-images/01-image";
 import ImageGallery from "./components/07-images/02-image-gallery";
 import ProfileCard from "./components/08-profile-card/profile-card";
+import BootstrapKlasikYontem from "./components/09-bootstrap/01-bootstrap-klasik-yontem";
+import BootstrapComponents from "./components/09-bootstrap/02-bootstrap-components";
+import BootstrapButton from "./components/09-bootstrap/03-bootstrap-button";
+import ReactIcons from "./components/10-icons/01-react-icons";
+import MaterialIcons from "./components/10-icons/02-material-icons";
+import Events from "./components/11-events/events";
+import ProductShop from "./components/12-product-shop/product-shop";
 
 const App = () => {
     return (
@@ -83,6 +90,13 @@ const App = () => {
                     ]
                 }
             />
+            <BootstrapKlasikYontem />
+            <BootstrapComponents />
+            <BootstrapButton variant="outline-primary" disabled />
+            <ReactIcons />
+            <MaterialIcons />
+            <Events />
+            <ProductShop />
         </div>
     )
 };
