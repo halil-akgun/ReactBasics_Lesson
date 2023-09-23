@@ -23,6 +23,8 @@ import ReactIcons from "./components/10-icons/01-react-icons";
 import MaterialIcons from "./components/10-icons/02-material-icons";
 import Events from "./components/11-events/events";
 import ProductShop from "./components/12-product-shop/product-shop";
+import State from "./components/13-usestate/state";
+import Counter from "./components/14-counter/counter";
 
 const App = () => {
     return (
@@ -97,6 +99,8 @@ const App = () => {
             <MaterialIcons />
             <Events />
             <ProductShop />
+            <State />
+            <Counter />
         </div>
     )
 };

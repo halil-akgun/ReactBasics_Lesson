@@ -4,13 +4,13 @@ const Jsx2 = () => {
     const isAdmin = true;
     const isLoading = false;
 
-    if (isLoading) {
-        console.log('Loading...')
-    }
+    // if (isLoading) {
+    //     console.log('Loading...')
+    // }
 
-    if (isAdmin) {
-        console.log('Admin');
-    }
+    // if (isAdmin) {
+    //     console.log('Admin');
+    // }
 
     return (
         isLoading

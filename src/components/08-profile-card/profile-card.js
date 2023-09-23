@@ -19,6 +19,7 @@ const ProfileCard = (props) => {
                     {
                         props.statistics?.map((statistic) => (
                             <Statistics
+                                key={statistic.title}
                                 {...statistic}
                             />
                         ))

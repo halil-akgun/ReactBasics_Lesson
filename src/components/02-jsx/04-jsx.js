@@ -26,12 +26,12 @@ const Jsx4 = () => {
         <div>
             <ul>
                 {
-                    names.map((name, index) => <li>{name}</li>)
+                    names.map((name, index) => <li key={index}>{name}</li>)
                 }
             </ul>
-            <select name="" id="">
+            <select>
                 {
-                    cities.map((city, index) => <option>{city}</option>)
+                    cities.map((city, index) => <option key={index}>{city}</option>)
                 }
             </select>
         </div>
