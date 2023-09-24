@@ -26,6 +26,9 @@ import ProductShop from "./components/12-product-shop/product-shop";
 import State from "./components/13-usestate/state";
 import Counter from "./components/14-counter/counter";
 import Birthday from "./components/15-birthday/birthday";
+import UseEffect from "./components/16-useeffect/useeffect";
+import CounterTitle from "./components/17-counter-title/counter-title";
+import DijitalSaatUygulamasi3 from "./components/18-dijital-saat-uygulamasi3/dijital-saat-uygulamasi3";
 
 const App = () => {
     return (
@@ -103,6 +106,9 @@ const App = () => {
             <State />
             <Counter />
             <Birthday />
+            <UseEffect />
+            <CounterTitle />
+            <DijitalSaatUygulamasi3 color="white" backgroundColor="purple" />
         </div>
     )
 };

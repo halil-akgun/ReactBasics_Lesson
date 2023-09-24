@@ -12,7 +12,7 @@ const Birthday = () => {
     };
 
     const deletePerson = (id) => {
-        const filteredArray = people.filter((person) => person.id !== id);
+        const filteredArray = people.filter((person) => person.id === id);
         setPeople(filteredArray);
     };
 
