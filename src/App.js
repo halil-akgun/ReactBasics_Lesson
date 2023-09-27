@@ -29,6 +29,12 @@ import Birthday from "./components/15-birthday/birthday";
 import UseEffect from "./components/16-useeffect/useeffect";
 import CounterTitle from "./components/17-counter-title/counter-title";
 import DijitalSaatUygulamasi3 from "./components/18-dijital-saat-uygulamasi3/dijital-saat-uygulamasi3";
+import UseRef from "./components/19-useref/useref";
+import ClassTypeComponent from "./components/20-component-types/01-class-type-component";
+import FunctionTypeComponent from "./components/20-component-types/02-function-type-component";
+import Fetch1 from "./components/21-fetch/01-fetch";
+import Fetch2 from "./components/21-fetch/02-fetch";
+import Countries from "./components/22-axios/countries";
 
 const App = () => {
     return (
@@ -100,7 +106,7 @@ const App = () => {
             <BootstrapComponents />
             <BootstrapButton variant="outline-primary" disabled />
             <ReactIcons />
-            <MaterialIcons />
+            {/* <MaterialIcons /> */}
             <Events />
             <ProductShop />
             <State />
@@ -109,6 +115,12 @@ const App = () => {
             <UseEffect />
             <CounterTitle />
             <DijitalSaatUygulamasi3 color="white" backgroundColor="purple" />
+            <UseRef />
+            <ClassTypeComponent />
+            <FunctionTypeComponent />
+            <Fetch1 />
+            <Fetch2 />
+            <Countries />
         </div>
     )
 };
