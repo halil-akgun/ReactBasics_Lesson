@@ -35,11 +35,19 @@ import FunctionTypeComponent from "./components/20-component-types/02-function-t
 import Fetch1 from "./components/21-fetch/01-fetch";
 import Fetch2 from "./components/21-fetch/02-fetch";
 import Countries from "./components/22-axios/countries";
+import ParentComponent from "./components/23-lifting-state-up/parent-component";
+import Form1 from "./components/24-forms/01-form";
+import Form2 from "./components/24-forms/02-form";
+import Form3 from "./components/24-forms/03-form";
+import Form4 from "./components/24-forms/04-form";
+import Form5 from "./components/24-forms/05-form";
+import FormikYup1 from "./components/25-formik-yup/01-formik-yup";
+import FormikYup2 from "./components/25-formik-yup/02-formik-yup";
 
 const App = () => {
     return (
         <div>
-            <X />
+            {/* <X />
             <Armutlar />
             <Muzlar />
             <Jsx1 />
@@ -60,7 +68,7 @@ const App = () => {
             <Image />
             <ImageGallery />
             {/* TODO: render konusunda array'lerin component disinda kalmasi gerektiginde tekrardan duzenlenecek */}
-            <ProfileCard
+            {/* <ProfileCard
                 src="profile-card.jpg"
                 name="Walker"
                 location="Nashville, Tenesse"
@@ -107,7 +115,7 @@ const App = () => {
             <BootstrapButton variant="outline-primary" disabled />
             <ReactIcons />
             {/* <MaterialIcons /> */}
-            <Events />
+            {/* <Events />
             <ProductShop />
             <State />
             <Counter />
@@ -121,6 +129,14 @@ const App = () => {
             <Fetch1 />
             <Fetch2 />
             <Countries />
+            <ParentComponent />   */}
+            <Form1 />
+            <Form2 />
+            <Form3 />
+            <Form4 />
+            <Form5 />
+            <FormikYup1 />
+            <FormikYup2 />
         </div>
     )
 };

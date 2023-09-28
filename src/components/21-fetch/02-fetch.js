@@ -9,6 +9,7 @@ const Fetch2 = () => {
     const [flag, setFlag] = useState(false);
 
     console.log(BASE_URL);
+    // 1 - oncelikle iki tane olusturulacak
 
     useEffect(() => {
         fetch(`${BASE_URL}/react-basics/users`)
