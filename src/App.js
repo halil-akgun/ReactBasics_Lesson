@@ -47,14 +47,14 @@ import FormikYup2 from "./components/25-formik-yup/02-formik-yup";
 const App = () => {
     return (
         <div>
-            <X />
+            {/* <X />
             <Armutlar />
-            <Muzlar />
+            <Muzlar /> */}
             {/* <Jsx1 />
             <Jsx2 />
             <Jsx3 />
             <Jsx4 /> */}
-            <InlineStyling />
+            {/* <InlineStyling />
             <InternalStyling />
             <ExternalStyling />
             <ModuleStyling />
@@ -64,11 +64,11 @@ const App = () => {
             <Children>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas minus!
             </Children>
-            <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
-            <Image />
-            <ImageGallery />
+            <DijitalSaatUygulamasi2 color="white" backgroundColor="red" /> */}
+            {/* <Image />
+            <ImageGallery /> */}
             {/* TODO: render konusunda array'lerin component disinda kalmasi gerektiginde tekrardan duzenlenecek */}
-            <ProfileCard
+            {/* <ProfileCard
                 src="profile-card.jpg"
                 name="Walker"
                 location="Nashville, Tenesse"
@@ -109,21 +109,21 @@ const App = () => {
                         }
                     ]
                 }
-            />
-            <BootstrapKlasikYontem />
+            /> */}
+            {/* <BootstrapKlasikYontem />
             <BootstrapComponents />
-            <BootstrapButton variant="outline-primary" disabled />
-            <ReactIcons />
+            <BootstrapButton variant="outline-primary" disabled /> */}
+            {/* <ReactIcons /> */}
             {/* <MaterialIcons /> */}
-            <Events />
+            {/* <Events />
             <ProductShop />
             <State />
             <Counter />
             <Birthday />
             <UseEffect />
-            <CounterTitle />
-            <DijitalSaatUygulamasi3 color="white" backgroundColor="purple" />
-            <UseRef />
+            <CounterTitle /> */}
+            {/* <DijitalSaatUygulamasi3 color="white" backgroundColor="purple" /> */}
+            {/* <UseRef />
             <ClassTypeComponent />
             <FunctionTypeComponent />
             <Fetch1 />
@@ -136,7 +136,7 @@ const App = () => {
             <Form4 />
             <Form5 />
             <FormikYup1 />
-            <FormikYup2 />
+            <FormikYup2 /> */}
         </div>
     )
 };
