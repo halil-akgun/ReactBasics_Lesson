@@ -25,8 +25,8 @@ const FormikYup1 = () => {
         onSubmit: onSubmit
     })
 
-    console.log(formik.errors.sifreniz);
-    console.log(formik.touched);
+    // console.log(formik.errors.sifreniz);
+    // console.log(formik.touched);
 
     return (
         <Container className='my-5'>

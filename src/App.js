@@ -47,13 +47,13 @@ import FormikYup2 from "./components/25-formik-yup/02-formik-yup";
 const App = () => {
     return (
         <div>
-            {/* <X />
+            <X />
             <Armutlar />
             <Muzlar />
-            <Jsx1 />
+            {/* <Jsx1 />
             <Jsx2 />
             <Jsx3 />
-            <Jsx4 />
+            <Jsx4 /> */}
             <InlineStyling />
             <InternalStyling />
             <ExternalStyling />
@@ -68,7 +68,7 @@ const App = () => {
             <Image />
             <ImageGallery />
             {/* TODO: render konusunda array'lerin component disinda kalmasi gerektiginde tekrardan duzenlenecek */}
-            {/* <ProfileCard
+            <ProfileCard
                 src="profile-card.jpg"
                 name="Walker"
                 location="Nashville, Tenesse"
@@ -115,7 +115,7 @@ const App = () => {
             <BootstrapButton variant="outline-primary" disabled />
             <ReactIcons />
             {/* <MaterialIcons /> */}
-            {/* <Events />
+            <Events />
             <ProductShop />
             <State />
             <Counter />
@@ -129,7 +129,7 @@ const App = () => {
             <Fetch1 />
             <Fetch2 />
             <Countries />
-            <ParentComponent />   */}
+            <ParentComponent />
             <Form1 />
             <Form2 />
             <Form3 />

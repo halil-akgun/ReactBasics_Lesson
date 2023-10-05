@@ -2,6 +2,9 @@ import { useFormik } from 'formik'
 import React from 'react';
 import { Button, Container, Form } from 'react-bootstrap';
 import * as Yup from 'yup';
+import axios from 'axios';
+
+const BASE_URL = process.env.REACT_APP_API_URL;
 
 const FormikYup2 = () => {
 
@@ -30,12 +33,32 @@ const FormikYup2 = () => {
                 .required("Sifre kismi bos birakilamaz"),
         }),
 
-        onSubmit: (values) => {
-            console.log(values)
+        onSubmit: async (values) => {
+            const dto = {
+                firstName: values.firstName,
+                lastName: values.lastName,
+                email: values.email,
+                password: values.password
+            }
+
+            try {
+                const response = await axios.post(`${BASE_URL}/react-basics/user-information`, values)
+                console.log(response.data);
+                alert(JSON.stringify(response.data));
+            } catch (error) {
+                alert("Hata olustu");
+            } finally {
+                console.log("Gittik geldik")
+            }
         }
     })
 
-    console.log(formik.touched.firstName)
+    const handleDelete = () => {
+        axios.delete(`${BASE_URL}/react-basics/user-information/${formik.values.id}`)
+            .then(response => console.log(response.data))
+            .catch(error => console.log(error))
+            .finally(() => console.log("Biz de gittik geldik"))
+    }
 
     return (
         <Container>
@@ -113,6 +136,7 @@ const FormikYup2 = () => {
                 >
                     SEND FORM
                 </Button>
+                <Button variant='danger' onClick={handleDelete}>ID'LI VERIYI SIL</Button>
             </Form>
         </Container>
     )
